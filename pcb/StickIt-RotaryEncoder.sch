@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:xess
+LIBS:xess-microchip
 LIBS:StickIt-RotaryEncoder-cache
 EELAYER 25 0
 EELAYER END
@@ -2423,7 +2424,7 @@ A3 D2 2B 1A 15 5F 31 0D 5D 7E F7 E1 E3 73 69 69 D8 54 CE 58 22 92 60 CB 56 9F 48
 CB 47 A8 F4 8A 4C CB 19 8A 29 3B BB 1D 7C 0B 7F BB D4 A1 0F C7 E7 99 94 3F 43 A5 27 22 7F A5 A9 
 E1 21 B6 4C 78 E3 AE 0D AF F3 7B FC AD 4A AF 04 34 E2 2B 85 FE A9 CB AD C0 51 C0 9D 78 77 29 2D 
 75 77 1B A7 12 91 A4 6B 5F 73 06 71 E1 73 38 F7 7A E0 11 70 57 90 AD BB D9 3A 56 DA FC 7F 93 50 
-01 E2 3B 8D 16 13 00 00 00 00 49 45 4E 44 AE 42 60 82 26 
+01 E2 3B 8D 16 13 00 00 00 00 49 45 4E 44 AE 42 60 82 B7 
 EndData
 $EndBitmap
 $Bitmap
@@ -2931,7 +2932,7 @@ AC 0E CC 20 6B 08 39 6D D4 3F A7 E6 5F 53 46 7D 19 56 BC A1 8C F9 D7 48 FE CF A5
 48 70 07 70 0B D9 93 E1 6B C8 B6 27 CC 53 B1 A0 3D 8C F5 6B 93 BD 87 9E 0C 3C 89 E5 EF A1 F5 81 
 35 C9 DE 37 33 58 FE 1E 9A CA D8 EF A3 F1 DE 43 CB DE 47 23 AC F8 1E 5A 56 24 B8 8B EC 3D 74 03 
 F0 6F B2 D3 0A 2F 53 9F A2 E2 FE 3F 79 73 7C 38 8D AC 56 91 00 00 00 00 49 45 4E 44 AE 42 60 82 
-30 
+70 
 EndData
 $EndBitmap
 Text GLabel 5350 2900 2    50   Input ~ 0
@@ -2939,21 +2940,17 @@ GND
 Text GLabel 5350 3000 2    50   Input ~ 0
 VCC
 Text GLabel 5350 2500 2    50   Input ~ 0
-D0
+1A
 Text GLabel 5350 2600 2    50   Input ~ 0
-D2
-Text GLabel 5350 2700 2    50   Input ~ 0
-D4
+1D
 Text GLabel 5350 2800 2    50   Input ~ 0
-D6
+2A
+Text GLabel 5350 2700 2    50   Input ~ 0
+2D
 Text GLabel 4750 2500 0    50   Input ~ 0
-D1
-Text GLabel 4750 2600 0    50   Input ~ 0
-D3
-Text GLabel 4750 2700 0    50   Input ~ 0
-D5
+1B
 Text GLabel 4750 2800 0    50   Input ~ 0
-D7
+2B
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 5524A5B8
@@ -3314,14 +3311,8 @@ Wire Wire Line
 Wire Wire Line
 	8400 3700 8400 3850
 Wire Wire Line
-	8600 2350 7900 2350
-Connection ~ 7900 2350
-Wire Wire Line
 	8600 2450 8150 2450
 Connection ~ 8150 2450
-Wire Wire Line
-	8700 2750 8400 2750
-Connection ~ 8400 2750
 Text GLabel 6200 3850 3    50   Input ~ 0
 GND
 Text GLabel 6450 3850 3    50   Input ~ 0
@@ -3346,18 +3337,18 @@ Text GLabel 8150 1800 1    50   Input ~ 0
 VCC
 Text GLabel 8400 1800 1    50   Input ~ 0
 VCC
-Text GLabel 8400 3300 0    50   Input ~ 0
-D6
-Text GLabel 8150 3300 0    50   Input ~ 0
-D7
 Text GLabel 7900 3300 0    50   Input ~ 0
-D4
+2D
+Text GLabel 8150 3300 0    50   Input ~ 0
+2B
+Text GLabel 8400 3300 0    50   Input ~ 0
+2A
 Text GLabel 6450 3300 0    50   Input ~ 0
-D1
+1B
 Text GLabel 6200 3300 0    50   Input ~ 0
-D0
+1A
 Text GLabel 6700 3300 0    50   Input ~ 0
-D2
+1D
 $Comp
 L RN8 RN2
 U 4 1 573327D0
@@ -3432,4 +3423,14 @@ Text GLabel 4100 4950 2    50   Input ~ 0
 VCC
 Text Notes 3450 5250 0    60   Italic 0
 Power-lead\nattachment point
+Wire Wire Line
+	8700 2750 7900 2750
+Connection ~ 7900 2750
+Wire Wire Line
+	8600 2350 8400 2350
+Connection ~ 8400 2350
+NoConn ~ 4750 2600
+NoConn ~ 4750 2700
+NoConn ~ 9550 2250
+NoConn ~ 9800 2250
 $EndSCHEMATC
