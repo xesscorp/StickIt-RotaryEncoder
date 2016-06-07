@@ -1,0 +1,19 @@
+net clk_i loc=a9; # 12 MHz clock to FPGA.
+
+# StickIt! Rotary Encoder V2 ==[pm6]==> StickIt! V3 ==> XuLA2
+net rotEnc1A_i   loc = c16;
+net rotEnc2A_i   loc = b15;
+net rotEnc1B_i   loc = j14;
+net rotEnc2B_i   loc = f16;
+net rotEnc1Btn_i loc = c1;
+net rotEnc2Btn_i loc = b16;
+
+# StickIt! LED Digits V2 ==[pm4]==> StickIt! V3 ==> XuLA2
+net led_o<0> loc = h1;
+net led_o<1> loc = k3;
+net led_o<2> loc = k16;
+net led_o<3> loc = m16;
+net led_o<4> loc = h2;
+net led_o<5> loc = j4;
+net led_o<6> loc = j16;
+net led_o<7> loc = k15;
