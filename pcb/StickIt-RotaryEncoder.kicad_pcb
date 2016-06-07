@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2016-02-25 BZR 6592, Git a9427f8)-product")
+(kicad_pcb (version 4) (host pcbnew "(2016-05-20 BZR 6816, Git 1e0a72d)-product")
 
   (general
     (links 62)
     (no_connects 0)
-    (area -0.050001 -0.050001 49.580001 20.370001)
+    (area -14.423343 -5.874999 57.745105 26.195001)
     (thickness 1.6)
     (drawings 48)
     (tracks 198)
