@@ -1,0 +1,9 @@
+﻿01. Insert a XuLA2-LX25 board into a StickIt! motherboard V3.0.
+02. Attach a StickIt! Rotary Encoder V2.0 module to the PM6 connector of the motherboard.
+03. (Optional) Attach a StickIt! LED Digits module to the PM4 connector of the motherboard.
+04. Attach a USB cable to the XuLA2 board.
+05. Download the rotaryencodertest.bit file to the FPGA on the XuLA2 board.
+06. Run the command "python rot_enc_test.py" to start the polling of the rotary encoder.
+    The accumulator value will be displayed as a hexadecimal number on the PC and the
+    LED digits.
+
