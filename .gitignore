@@ -1,43 +1,35 @@
 *.py[cod]
+*.bak
 
-# C extensions
-*.so
+# mkdocs build directory
+docs/site/*
 
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
-lib
-lib64
+# LaTeX stuff
+*.aux
+*.log
+*.toc
 
-# Installer logs
-pip-log.txt
+# KiCad stuff
+pcb/_autosave*
 
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
-htmlcov
+# Cookiecutter
+output/
+boilerplate/
 
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
-# Complexity
-output/*.html
-output/*/index.html
-
-# Sphinx
-docs/_build
+# Stuff we want to keep
+!*.vhd
+!*.vhdl
+!*.v
+!*.xise
+!*.ucf
+!*.pro
+!*.sch
+!*.kicad_pcb
+!*.lib
+!*.jpg
+!*.png
+!*.sty
+!*.tex
+!*.md
+!*.yml
+!*.ico

@@ -14,7 +14,7 @@ Important Files
 
 `RotaryEncoderTest.ucf`: Pin assignments for connecting the XuLA2 FPGA
    board to the StickIt! Rotary Encoder V2.0 module via the StickIt! motherboard.
-   (Use `gxsconn` tool to generate pin mappings. Install it with
+   (Use the `gxsconn` tool to generate pin mappings. Install it with
    `pip install xsconnect`.)
 
 `RotaryEncoderTest.xise`: The Xilinx ISE project file that ties all the previous files together.
