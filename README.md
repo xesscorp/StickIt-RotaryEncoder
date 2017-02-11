@@ -1,4 +1,4 @@
-# StickIt! SmallButtons Module Repository
+# StickIt! Rotary Encoder Module Repository
 
 
 ## Description
