@@ -19,7 +19,7 @@ through a PMOD port, then the process is a bit more complicated:
  5. Include the UCF file in your ISE/Vivado project and compile it into a bitstream.
 
 That's a pretty big effort, so to get you started we've provided a 
-[pre-built project]({{site.product_repo}}/tree/master/FPGA/ButtonTest) 
+[pre-built project]({{site.product_repo}}/tree/master/FPGA/RotaryEncoderTest) 
 that you can modify for your own applications.
 
 The pre-built project uses a specific PMOD port and {{site.company_shortname}} FPGA board.

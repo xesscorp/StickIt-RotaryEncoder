@@ -13,4 +13,5 @@ Modifications to [Jekyll documentation theme](http://idratherbewriting.com/docum
  1. Product name in top navigation bar is set in `_includes/topnav.html`.
  1. Link to main repository is set in `_data/topnav.yml`.
  1. Summary and in-page TOC are disabled in `_layouts/page.html`.
+ 1. Make sure to set the Github repo to serve website from the /docs folder.
  
