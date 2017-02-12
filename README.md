@@ -23,4 +23,4 @@ board that is usable on a breadboard or through a PMOD connector.
 
 [ StickIt-Rotary Encoder Schematic ](https://xesscorp.github.io/StickIt-RotaryEncoder/misc/schematic.pdf)
 
-<img src="docs/images/cover.jpg" style="width:500px;"/>
+<img src="docs/images/cover.jpg" style="width:300px;"/>
