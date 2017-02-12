@@ -12,8 +12,8 @@ board that is usable on a breadboard or through a PMOD connector.
 
 ## Features
 
-* It has two independent, rotary encoder withs integrated ON/OFF pushbuttons.
-* Each encoder has 12 detents.
+* It has two independent, rotary encoders with integrated ON/OFF pushbuttons.
+* Each encoder has 20 detents.
 * Insertable into a solderless breadboard.
 * Also usable through its PMOD interface.
 * Small: 0.8" &times; 1.95".
